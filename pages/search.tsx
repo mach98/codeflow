@@ -6,6 +6,8 @@ const SearchNewsPage = () => {
     null
   );
   const [searchResultsLoading, setSearchResultsLoading] = useState(false);
+  const [searchResultsLoadingIsError, setSearchResultsLoadingIsError] =
+    useState(false);
 
   return (
     <main>
